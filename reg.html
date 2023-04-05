@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="stylelogin.css">
+	<style>
+		body{
+			background-image: url(julien-riedel-kHklwdauyHI-unsplash.jpg);
+            
+		}
+	</style>
+</head>
+<body>
+	<div class="container" action="home.html">
+		<h1 class="label">User Registration</h1>
+		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+            <div class="font font2">Re enter Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Signup</button>
+		</form>
+	</div>	
+	<script src="valid.js"></script>
+</body>
+</html>

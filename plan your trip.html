@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  
+  background-image: url(planyourtrip.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+div { 
+        padding: 50px; 
+        background-color: lightblue;
+        margin-left: 500px;
+        margin-right:500px;
+        margin-top: 200px;
+        margin-bottom: 150px;
+        border-radius: 15px;
+        opacity: 0.8;
+}
+
+    </style>
+    <title>Plan Your Trip</title>
+</head>
+<body>
+    <center>
+		<h1>---Plan Your Trip---</h1>
+		</center>
+    <div>
+		<form action="search.html"> 
+		<b>From:</b><input type="text"  required>
+		<b>To:</b><input type="text"  required><br>
+		<br>
+		<b>Date:</b><input type="date" name="mydate"  required>	
+		<label for="catagory"><b>Catagory:</b></label>
+	    <select name="mycar" id="car"  required>
+	    <option value="Gen">Genaral</option>
+	    <option value="Gold">Gold</option>
+	    <option value="premium">premium</option>
+	    </select><br>
+	    <br>
+	    <input type="Submit" value="Search">
+	    <input type="Reset" value="Reset"><br>
+	    <input type="radio" name="Person with disbility concession">person with disbility concession<input type="radio" name="Flexible with date">Flexible with date<br>
+	    
+	    </form>
+	</div>
+</body>
+</html>
